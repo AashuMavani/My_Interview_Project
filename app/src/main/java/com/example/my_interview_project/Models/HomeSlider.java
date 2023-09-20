@@ -71,6 +71,15 @@ public class HomeSlider {
     @Expose
     private String endDate;
 
+    public HomeSlider(String id, String title, String image, String screenNo, String bgColor, String entryDate) {
+        this.id = id;
+        this.title = title;
+        this.image = image;
+        this.screenNo = screenNo;
+        this.bgColor = bgColor;
+        this.entryDate = entryDate;
+    }
+
     public String getId() {
         return id;
     }
